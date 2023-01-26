@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Arbeidskrav_2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>RESSURSARKIV</h1>
+
+  <nav class="tab">
+      <button class="inactive" id="htmlButton" onclick="createContent(0)">HTML</button>
+      <button class="inactive" id="cssButton" onclick="createContent(1)">CSS</button>
+      <button class="inactive" id="jsButton" onclick="createContent(2)">JavaScript</button>
+      <button class="inactive" id="reactButton" onclick="createContent(3)">React</button>
+      <button class="inactive" id="sanityButton" onclick="createContent(4)">Sanity and headless CMS</button>
+  </nav>
+
+  <article id="content">
+      <h2 id="category"></h2>
+      <p id="text"></p>
+      <ul id="sources">
+      </ul>
+    </article>
+
+  <script src="ressurser.js"></script>
+</body>
+
+</html>
